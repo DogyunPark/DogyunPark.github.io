@@ -187,19 +187,18 @@
         <!-- unconditional generation. -->
         <h3 class="title is-4">Unconditional</h3>
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            DDMI can generate more vivid images compared to the recent INR generative models.
           </p>
-          <img src="static/images/image_compare.jpg" alt="Framework" width="75%" class="center blend-img-background"/>
+          <div class="content has-text-centered">
+            <img src="static/images/image_compare.jpg" alt="Framework" width="75%" class="center blend-img-background"/>
+          </div>
         <br/>
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
         <h3 class="title is-4">Arbitrary scale image generation</h3>
           <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
+            With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by querying different sets of coordinates c.
           </p>
         <div class="content has-text-centered">
           <video id="replay-video"
