@@ -148,7 +148,7 @@
             These models opened the door for domain-agnostic generative models, but they often fail to achieve high-quality generation.
             We observed that the existing methods generate the weights of neural networks to parameterize INRs and evaluate the network with fixed positional embeddings (PEs).
             Arguably, this architecture limits the expressive power of generative models and results in low-quality INR generation.
-            To address this limitation, we propose Domain-agnostic Latent Diffusion Model for INRs (DDMI) that generates adaptive positional embeddings instead of neural networks' weights.
+            To address this limitation, we propose <b style="color: #000000">D</b>bomain-agnostic Latent <b style="color: #000000">D</b>iffusion <b style="color: #000000">M</b> for <b style="color: #000000">I</b> (DDMI) that generates adaptive positional embeddings instead of neural networks' weights.
             Specifically, we develop a Discrete-to-continuous space Variational AutoEncoder (D2C-VAE), which seamlessly connects discrete data and the continuous signal functions in the shared latent space. 
             Additionally, we introduce a novel conditioning mechanism for evaluating INRs with the hierarchically decomposed PEs to further enhance expressive power.
             Extensive experiments across four modalities, \eg, 2D images, 3D shapes, Neural Radiance Fields, and videos, with seven benchmark datasets, demonstrate the versatility of DDMI and its superior performance compared to the existing INR generative models.
@@ -168,8 +168,9 @@
     <div class="content">
       <h2 class="title is-3">Method Overview</h2>
       <p>
-        Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-        would be impossible without nerfies since it would require going through a wall.
+        In the first stage, we learn the latent space of continuous signal via our D2C-VAE framework.
+        Then, we approximate the distribution of latent space with the latent diffusion model (DDMI). 
+        After training, DDMI generate hierarchically decomposed positional embeddings (HDBFs), where the MLPs read out HDBFs into signal values.
       </p>
       <img src="static/videos/framework.gif" alt="Framework" class="center-image blend-img-background"/>
     </div>
