@@ -175,23 +175,21 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Generation Results</h2>
+        <h2 class="title is-3">2D Image Generation Results</h2>
 
         <!-- unconditional generation. -->
         <h3 class="title is-4">2D Images</h3>
-        <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
             frames. Use the slider here to linearly interpolate between the left frame and the right
             frame.
           </p>
-          <img src="static/images/image_compare.jpg" alt="Framework" class="center-image blend-img-background"/>
-        </div>
+          <img src="static/images/image_compare.jpg" alt="Framework" height="75%" class="center blend-img-background"/>
         <br/>
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Re-rendering the input video</h3>
+        <h3 class="title is-4">Arbitrary scale image generation</h3>
         <div class="content has-text-justified">
           <p>
             Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
