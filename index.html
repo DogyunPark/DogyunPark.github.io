@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="keywords" content="INR, latent diffusion">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-quality Implicit Neural Representations</title>
 
@@ -170,9 +170,9 @@
       <h2 class="title is-3">Method Overview</h2>
       <h3 class="title is-4">PE generation</h3>
       <p>
-        In the first stage, we learn the latent space of continuous signals via our D2C-VAE framework.
-        Then, we approximate the distribution of latent space with the latent diffusion model (DDMI). 
-        After training, DDMI generate hierarchically decomposed positional embeddings (HDBFs), where the MLPs read out HDBFs into the signal values.
+        To generate Implicit neural representation, we propose generating adaptive positional embeddings instead of the weight of INRs. 
+        This shifts the primary expressive power from MLP to PE, which we have observed to lead to more fine-detailed generation results. 
+        To further enhance the expressive capacity, we hierarchically decompose the PEs (HDBFs) and modulate the MLPs in a course-to-fine manner (CFC).
       </p>
       <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
       <h3 class="title is-4">Two-stage training</h3>
@@ -205,7 +205,7 @@
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Arbitrary scale image generation</h3>
+        <h3 class="title is-4">Arbitrary-scale image generation</h3>
           <p>
             With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by querying different sets of coordinates c.
           </p>
