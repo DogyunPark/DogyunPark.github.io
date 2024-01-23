@@ -165,8 +165,17 @@
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Method Overview. -->
+    
     <div class="content">
       <h2 class="title is-3">Method Overview</h2>
+      <h3 class="title is-4">PE generation</h3>
+      <p>
+        In the first stage, we learn the latent space of continuous signals via our D2C-VAE framework.
+        Then, we approximate the distribution of latent space with the latent diffusion model (DDMI). 
+        After training, DDMI generate hierarchically decomposed positional embeddings (HDBFs), where the MLPs read out HDBFs into the signal values.
+      </p>
+      <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
+      <h3 class="title is-4">Two-stage training</h3>
       <p>
         In the first stage, we learn the latent space of continuous signals via our D2C-VAE framework.
         Then, we approximate the distribution of latent space with the latent diffusion model (DDMI). 
