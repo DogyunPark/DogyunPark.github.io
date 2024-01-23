@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DDMI: Domain-Agnostic Latent Diffusion Models for Synthesizing High-quality Implicit Neural Representations</title>
 
+  <!-- Import the component -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
   <script>
@@ -234,8 +237,16 @@
             frames. Use the slider here to linearly interpolate between the left frame and the right
             frame.
           </p>
-          <div class="content has-text-centered">
-            <img src="static/images/image_compare.jpg" alt="Framework" width="80%" class="blend-img-background"/>
+          <div id="3d-results" class="carousel results-carousel">
+            <div class="item item-steve">
+              <img src="static/images/image_compare.jpg" alt="Framework" width="75%" class="center blend-img-background"/>
+            </div>
+            <div class="item item-steve">
+              <img src="static/images/image_compare.jpg" alt="Framework" width="75%" class="center blend-img-background"/>
+            </div>
+            <div class="item item-steve">
+              <img src="static/images/image_compare.jpg" alt="Framework" width="75%" class="center blend-img-background"/>
+            </div>
           </div>
         <br/>
         <!--/ Interpolating. -->
