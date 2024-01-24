@@ -170,9 +170,9 @@
       <h2 class="title is-3">Method Overview</h2>
       <h3 class="title is-4">PE generation</h3>
       <p>
-        To generate Implicit neural representation, we propose generating adaptive positional embeddings instead of the weight of INRs. 
-        This shifts the primary expressive power from MLP to PE, which we have observed to lead to more fine-detailed generation results. 
-        To further enhance the expressive capacity, we hierarchically decompose the PEs (HDBFs) and modulate the MLPs in a course-to-fine manner (CFC).
+        To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings(PEs) using a diffusion model instead of generating the weights of INRs. 
+        This approach shifts the primary expressive power from MLPs to PEs, which we have observed to result in finer detailed generation results. 
+        To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
       </p>
       <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
       <h3 class="title is-4">Two-stage training</h3>
