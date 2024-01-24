@@ -170,7 +170,7 @@
       <h2 class="title is-3">Method Overview</h2>
       <h3 class="title is-4">PE generation</h3>
       <p>
-        To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings(PEs) using a diffusion model instead of generating the weights of INRs. 
+        To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings (PEs) using a diffusion model instead of generating the weights of INRs. 
         This approach shifts the primary expressive power from MLPs to PEs, which we have observed to result in finer detailed generation results. 
         To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
       </p>
@@ -356,7 +356,9 @@
             frames. Use the slider here to linearly interpolate between the left frame and the right
             frame.
           </p>
-          <img src="static/images/image_compare.jpg" alt="Framework" width="100%" class="center blend-img-background"/>
+          <div class="content has-text-centered">
+            <img src="static/videos/mergedvideo.gif" alt="mergedvideo" class="blend-img-background"/>
+          </div>
         <br/>
         <!--/ Interpolating. -->
       </div>
