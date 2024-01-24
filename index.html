@@ -166,7 +166,7 @@
         To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
       </p>
       <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
-      <h3 class="title is-4">Two-stage training</h3>
+      <h3 class="title is-4">DDMI</h3>
       <p>
         In the first stage, we learn the latent space of continuous signals using our D2C-VAE framework.
         We then approximate the distribution of this latent space with the latent diffusion model. 
@@ -195,7 +195,7 @@
         <!-- Re-rendering. -->
         <h3 class="title is-4">Arbitrary-scale image generation</h3>
           <p>
-            With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by querying different sets of coordinates c.
+            With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by using different sets of coordinates c.
           </p>
         <div class="content has-text-centered">
           <img src="static/videos/arbitrary_generation3.gif" alt="arbitrary_generation" class="blend-img-background"/>
