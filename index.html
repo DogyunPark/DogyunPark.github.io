@@ -158,8 +158,8 @@
     <!-- Method Overview. -->
     
     <div class="content">
-      <h2 class="title is-3">Method Overview</h2>
-      <h3 class="title is-4">PE generation</h3>
+      <h2 class="title is-3 is-size-5-mobile">Method Overview</h2>
+      <h3 class="title is-4 is-size-6-mobile">PE generation</h3>
       <div class="content is-size-7-mobile">
         <p>
           To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings (PEs) using a diffusion model instead of generating the weights of INRs. 
@@ -168,7 +168,7 @@
         </p>
       </div>
       <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
-      <h3 class="title is-4">DDMI</h3>
+      <h3 class="title is-4 is-size-6-mobile">DDMI</h3>
       <div class="content is-size-7-mobile">
         <p>
           In the first stage, we learn the latent space of continuous signals using our D2C-VAE framework.
@@ -186,10 +186,10 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">2D Image Results</h2>
+        <h2 class="title is-3 is-size-5-mobile">2D Image Results</h2>
 
         <!-- unconditional generation. -->
-        <h3 class="title is-4">Unconditional generation</h3>
+        <h3 class="title is-4 is-size-6-mobile">Unconditional generation</h3>
           <div class="content has-text-centered">
             <img src="static/images/image_compare.jpg" alt="Framework" width="90%" class="center blend-img-background"/>
           </div>
@@ -197,7 +197,7 @@
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Arbitrary-scale image generation</h3>
+        <h3 class="title is-4 is-size-6-mobile">Arbitrary-scale image generation</h3>
           <p>
             With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by using different sets of coordinates c.
           </p>
@@ -217,10 +217,10 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">3D Shape Generation Results</h2>
+        <h2 class="title is-3 is-size-5-mobile">3D Shape Generation Results</h2>
 
         <!-- unconditional generation. -->
-        <h3 class="title is-4">Unconditional generation</h3>
+        <h3 class="title is-4 is-size-6-mobile">Unconditional generation</h3>
           <div class="container">
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
@@ -331,7 +331,7 @@
         <!--/ Interpolating. -->
 
         <!-- Re-rendering. -->
-        <h3 class="title is-4">Text-to-shape generation</h3>
+        <h3 class="title is-4 is-size-6-mobile">Text-to-shape generation</h3>
           <div class="container">
             <div id="t2s-carousel" class="carousel results-carousel">
               <div class="item item-steve">
@@ -355,7 +355,7 @@
             </div>
           </div>
         <br/>
-        <p class="is-5 is-size-6-mobile has-text-centered">
+        <p class="is-5 is-size-7-mobile has-text-centered">
           "A chair that has a curved back seat"
         </p>
         <!--/ Re-rendering. -->
@@ -371,15 +371,17 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">2D Video Generation Results</h2>
+        <h2 class="title is-3 is-size-5-mobile">2D Video Generation Results</h2>
 
         <!-- unconditional generation. -->
-        <h3 class="title is-4">Unconditional</h3>
+        <h3 class="title is-4 is-size-6-mobile">Unconditional</h3>
+        <div class="content is-size-7-mobile">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
             frames. Use the slider here to linearly interpolate between the left frame and the right
             frame.
           </p>
+        </div>
           <div class="content has-text-centered">
             <div class="item item-table-tp">
               <video poster="" id="mergedvideo" autoplay controls muted loop playsinline width="100%">
