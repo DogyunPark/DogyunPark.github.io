@@ -190,8 +190,13 @@
 
         <!-- unconditional generation. -->
         <h3 class="title is-4 is-size-6-mobile">2D image generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            DDMI can generate images with more fine-grained details compared to previous INR generative models.
+          </p>
+        </div>
           <div class="content has-text-centered">
-            <img src="static/images/image_compare.jpg" alt="Framework" width="90%" class="center blend-img-background"/>
+            <img src="static/images/image_compare.jpg" alt="Framework" width="100%" class="center blend-img-background"/>
           </div>
         <br/>
         <!--/ Interpolating. -->
@@ -338,8 +343,13 @@
   </div>
   <div class="container is-max-desktop">
     <div class="columns is-centered">
-      <div class="column is-full-width">
+      <div class="column is-four-fifths">
         <h3 class="title is-4 is-size-6-mobile">Text to shape generation</h3>
+        <div class="content is-size-7-mobile">
+          <p>
+            DDMI can also be easily adopted to generate 3D shapes for a given text prompt.
+          </p>
+        </div>
           <div class="container">
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
@@ -361,15 +371,17 @@
                 </video>
               </div>
               <div class="item item-roundtable">
-                <p>
-                  "A chair that has a curved back seat"
-                </p>
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
                   <source src="./static/videos/suv.mp4"
                           type="video/mp4">
                 </video>
               </div>
             </div>
+          </div>
+          <div class="content is-size-7-mobile has-text-centered">
+            <p>
+              "A chair that has curved back seet"
+            </p>
           </div>
       </div>
     </div>
@@ -404,12 +416,12 @@
                           type="video/mp4">
                 </video>
               </div>
-              <div class="content is-size-7-mobile has-text-centered">
-                <p>
-                  "A metalic folding chair"
-                </p>
-              </div>
             </div>
+          </div>
+          <div class="content is-size-7-mobile has-text-centered">
+            <p>
+              "A chair that has curved back seet"
+            </p>
           </div>
       </div>
     </div>
@@ -426,9 +438,7 @@
         <h3 class="title is-4 is-size-6-mobile">Video generation</h3>
         <div class="content is-size-7-mobile">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            DDMI can also generate a short video.
           </p>
         </div>
           <div class="content has-text-centered">
