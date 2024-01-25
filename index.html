@@ -133,7 +133,7 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3 is-size-5-mobile">Abstract</h2>
-        <div class="content is-size-6-mobile has-text-justified">
+        <div class="content is-size-7-mobile has-text-justified">
           <p>
             Recent studies have introduced a new class of generative models for synthesizing implicit neural representations (INRs) that capture arbitrary continuous signals in various domains.
             These models opened the door for domain-agnostic generative models, but they often fail to achieve high-quality generation.
@@ -160,18 +160,22 @@
     <div class="content">
       <h2 class="title is-3">Method Overview</h2>
       <h3 class="title is-4">PE generation</h3>
-      <p>
-        To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings (PEs) using a diffusion model instead of generating the weights of INRs. 
-        This approach shifts the primary expressive power from MLPs to PEs, which we have observed to result in finer detailed generation results. 
-        To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
-      </p>
+      <div class="content is-size-7-mobile">
+        <p>
+          To generate high-quality implicit neural representations, we propose the generation of adaptive positional embeddings (PEs) using a diffusion model instead of generating the weights of INRs. 
+          This approach shifts the primary expressive power from MLPs to PEs, which we have observed to result in finer detailed generation results. 
+          To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
+        </p>
+      </div>
       <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
       <h3 class="title is-4">DDMI</h3>
-      <p>
-        In the first stage, we learn the latent space of continuous signals using our D2C-VAE framework.
-        We then approximate the distribution of this latent space with the latent diffusion model. 
-        After training, the DDMI generates hierarchically decomposed positional embeddings (HDBFs), from which the MLPs read out the signal values.
-      </p>
+      <div class="content is-size-7-mobile">
+        <p>
+          In the first stage, we learn the latent space of continuous signals using our D2C-VAE framework.
+          We then approximate the distribution of this latent space with the latent diffusion model. 
+          After training, the DDMI generates hierarchically decomposed positional embeddings (HDBFs), from which the MLPs read out the signal values.
+        </p>
+      </div>
       <img src="static/videos/framework.gif" alt="Framework" class="center-image blend-img-background"/>
     </div>
   </div>
