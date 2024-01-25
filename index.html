@@ -119,7 +119,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <h2 class="subtitle is-size-6-mobile has-text-centered">
-        TL;DR: We learn a latent diffusion model that generates hierarchically decomposed positional embeddings of Implicit neural representations, enabling high-quality generation on various domains.
+        TL;DR: We propose a latent diffusion model that generates hierarchically decomposed positional embeddings of Implicit neural representations, enabling high-quality generation on various data domains.
       </h2>
       <img src="static/images/mainfigure.png" alt="Additional Results" class="center-image blend-img-background"/>
     </div>
@@ -173,7 +173,7 @@
         <p>
           In the first stage, we learn the latent space of continuous signals using our D2C-VAE framework.
           We then approximate the distribution of this latent space with the latent diffusion model. 
-          After training, the DDMI generates hierarchically decomposed positional embeddings (HDBFs), from which the MLPs read out the signal values.
+          After training, DDMI generates hierarchically decomposed positional embeddings (HDBFs), from which the MLPs read out the signal values for given coordinates.
         </p>
       </div>
       <img src="static/videos/framework.gif" alt="Framework" class="center-image blend-img-background"/>
@@ -186,10 +186,10 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 is-size-5-mobile">2D Image Results</h2>
-
+        <h2 class="title is-3 is-size-5-mobile">Applications</h2>
+        
         <!-- unconditional generation. -->
-        <h3 class="title is-4 is-size-6-mobile">Unconditional generation</h3>
+        <h3 class="title is-4 is-size-6-mobile">2D image generation</h3>
           <div class="content has-text-centered">
             <img src="static/images/image_compare.jpg" alt="Framework" width="90%" class="center blend-img-background"/>
           </div>
@@ -200,7 +200,7 @@
         <h3 class="title is-4 is-size-6-mobile">Arbitrary-scale image generation</h3>
         <div class="content is-size-7-mobile">
           <p>
-            With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by using different sets of coordinates c.
+            With DDMI, we can freely control the scale of images, e.g., arbitrary resolution or zoom-in, by using different sets of coordinates.
           </p>
         </div>
         <div class="content has-text-centered">
@@ -213,16 +213,13 @@
     <!--/ Animation. -->
 </section>
 
-
-<hr>
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 is-size-5-mobile">3D Shape Generation Results</h2>
         <!-- unconditional generation. -->
-        <h3 class="title is-4 is-size-6-mobile">Unconditional generation</h3>
+        <h3 class="title is-4 is-size-6-mobile">3D shape generation</h3>
           <div class="container">
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
@@ -419,19 +416,14 @@
   </div>
 </section>
 
-
-
-
-<hr>
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 is-size-5-mobile">2D Video Generation Results</h2>
 
         <!-- unconditional generation. -->
-        <h3 class="title is-4 is-size-6-mobile">Unconditional</h3>
+        <h3 class="title is-4 is-size-6-mobile">Video generation</h3>
         <div class="content is-size-7-mobile">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
