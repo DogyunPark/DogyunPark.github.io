@@ -25,20 +25,20 @@
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
-  <link rel="stylesheet" href="./static/css/bulma.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css">
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./images/favicon.svg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="./static/js/fontawesome.all.min.js"></script>
-  <script src="./static/js/bulma-carousel.min.js"></script>
-  <script src="./static/js/bulma-slider.min.js"></script>
-  <script src="./static/js/index.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/index.js"></script>
 </head>
 <body>
 
@@ -122,7 +122,7 @@
       <h2 class="subtitle is-size-6-mobile has-text-centered">
         TL;DR: We propose a latent diffusion model that generates hierarchically decomposed positional embeddings of Implicit neural representations, enabling high-quality generation on various data domains.
       </h2>
-      <img src="static/images/mainfigure.png" alt="Additional Results" class="center-image blend-img-background"/>
+      <img src="images/mainfigure.png" alt="Additional Results" class="center-image blend-img-background"/>
     </div>
   </div>
 </section>
@@ -168,7 +168,7 @@
           To further enhance expressive capacity, we hierarchically decompose the PEs into multiple scales (HDBFs) and modulate the MLPs in a coarse-to-fine manner (CFC).
         </p>
       </div>
-      <img src="static/videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
+      <img src="videos/concept.gif" alt="Framework" class="center-image blend-img-background"/>
       <h3 class="title is-4 is-size-6-mobile">DDMI</h3>
       <div class="content is-size-7-mobile">
         <p>
@@ -177,7 +177,7 @@
           After training, DDMI generates hierarchically decomposed positional embeddings (HDBFs), from which the MLPs read out the signal values for given coordinates.
         </p>
       </div>
-      <img src="static/videos/framework.gif" alt="Framework" class="center-image blend-img-background"/>
+      <img src="videos/framework.gif" alt="Framework" class="center-image blend-img-background"/>
     </div>
   </div>
 <hr>
@@ -197,7 +197,7 @@
           </p>
         </div>
           <div class="content has-text-centered">
-            <img src="static/images/image_compare.jpg" alt="Framework" width="100%" class="center blend-img-background"/>
+            <img src="images/image_compare.jpg" alt="Framework" width="100%" class="center blend-img-background"/>
           </div>
         <br/>
         <!--/ Interpolating. -->
@@ -210,7 +210,7 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <img src="static/videos/arbitrary_generation3.gif" alt="arbitrary_generation" class="blend-img-background"/>
+          <img src="videos/arbitrary_generation3.gif" alt="arbitrary_generation" class="blend-img-background"/>
         </div>
         <!--/ Re-rendering. -->
 
@@ -234,139 +234,139 @@
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
                 <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/bigsofa.mp4"
+                  <source src="./videos/bigsofa.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-longsofa">
                 <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/supercar.mp4"
+                  <source src="./videos/supercar.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/suv.mp4"
+                  <source src="./videos/suv.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-ship-tp">
                 <video poster="" id="ship" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/boat.mp4"
+                  <source src="./videos/boat.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-table-tp">
                 <video poster="" id="table" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/bong.mp4"
+                  <source src="./videos/bong.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-table2-tp">
                 <video poster="" id="table2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/gun.mp4"
+                  <source src="./videos/gun.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-rifle-tp">
                 <video poster="" id="rifle" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/roundchair.mp4"
+                  <source src="./videos/roundchair.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="chair" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/chair.mp4"
+                  <source src="./videos/chair.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="airplane2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/airplane2.mp4"
+                  <source src="./videos/airplane2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="lamp" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/lamp.mp4"
+                  <source src="./videos/lamp.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="car2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/car2.mp4"
+                  <source src="./videos/car2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="longboat" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/longboat.mp4"
+                  <source src="./videos/longboat.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="airplane3" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/airplane3.mp4"
+                  <source src="./videos/airplane3.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="squaretable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/squaretable.mp4"
+                  <source src="./videos/squaretable.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="toolchair" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/toolchair.mp4"
+                  <source src="./videos/toolchair.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="suv2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/suv2.mp4"
+                  <source src="./videos/suv2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-bench-tp">
                 <video poster="" id="sofa" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/sofa.mp4"
+                  <source src="./videos/sofa.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-toolchair2-tp">
                 <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/toolchair2.mp4"
+                  <source src="./videos/toolchair2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-toolchair2-tp">
                 <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/bench2.mp4"
+                  <source src="./videos/bench2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-toolchair2-tp">
                 <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/bus.mp4"
+                  <source src="./videos/bus.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-toolchair2-tp">
                 <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/sofa3.mp4"
+                  <source src="./videos/sofa3.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-toolchair2-tp">
                 <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/flattable.mp4"
+                  <source src="./videos/flattable.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-toolchair2-tp">
                 <video poster="" id="toolchair2" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/triangletable.mp4"
+                  <source src="./videos/triangletable.mp4"
                           type="video/mp4">
                 </video>
               </div>
@@ -388,37 +388,37 @@
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
                 <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/nerf_car1.mp4"
+                  <source src="./videos/nerf_car1.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-truck">
                 <video poster="" id="truck" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/nerf_car2.mp4"
+                  <source src="./videos/nerf_car2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-longsofa">
                 <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/nerf_car3.mp4"
+                  <source src="./videos/nerf_car3.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/nerf_car4.mp4"
+                  <source src="./videos/nerf_car4.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/nerf_car5.mp4"
+                  <source src="./videos/nerf_car5.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/nerf_car6.mp4"
+                  <source src="./videos/nerf_car6.mp4"
                           type="video/mp4">
                 </video>
               </div>
@@ -447,73 +447,73 @@
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
                 <video poster="A chair" id="steve" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair.mp4"
+                  <source src="./videos/rockingchair.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-truck">
                 <video poster="" id="truck" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair1.mp4"
+                  <source src="./videos/rockingchair1.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-longsofa">
                 <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair2.mp4"
+                  <source src="./videos/rockingchair2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair3.mp4"
+                  <source src="./videos/rockingchair3.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair4.mp4"
+                  <source src="./videos/rockingchair4.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair5.mp4"
+                  <source src="./videos/rockingchair5.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair6.mp4"
+                  <source src="./videos/rockingchair6.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair7.mp4"
+                  <source src="./videos/rockingchair7.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair8.mp4"
+                  <source src="./videos/rockingchair8.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair9.mp4"
+                  <source src="./videos/rockingchair9.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair10.mp4"
+                  <source src="./videos/rockingchair10.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/rockingchair11.mp4"
+                  <source src="./videos/rockingchair11.mp4"
                           type="video/mp4">
                 </video>
               </div>
@@ -535,67 +535,67 @@
             <div id="results-carousel" class="carousel results-carousel">
               <div class="item item-steve">
                 <video poster="" id="steve" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer7.mp4"
+                  <source src="./videos/twolayer7.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-truck">
                 <video poster="" id="truck" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer8.mp4"
+                  <source src="./videos/twolayer8.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-longsofa">
                 <video poster="" id="longsofa" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer10.mp4"
+                  <source src="./videos/twolayer10.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer3.mp4"
+                  <source src="./videos/twolayer3.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer4.mp4"
+                  <source src="./videos/twolayer4.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer5.mp4"
+                  <source src="./videos/twolayer5.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer6.mp4"
+                  <source src="./videos/twolayer6.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer.mp4"
+                  <source src="./videos/twolayer.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer9.mp4"
+                  <source src="./videos/twolayer9.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer2.mp4"
+                  <source src="./videos/twolayer2.mp4"
                           type="video/mp4">
                 </video>
               </div>
               <div class="item item-roundtable">
                 <video poster="" id="roundtable" autoplay controls muted loop playsinline width="100%">
-                  <source src="./static/videos/twolayer1.mp4"
+                  <source src="./videos/twolayer1.mp4"
                           type="video/mp4">
                 </video>
               </div>
@@ -626,25 +626,25 @@
           <div class="content has-text-centered">
             <div class="item item-table-tp">
               <video poster="" id="mergedvideo" autoplay controls muted loop playsinline width="100%">
-                <source src="./static/videos/mergevideo.mp4"
+                <source src="./videos/mergevideo.mp4"
                         type="video/mp4">
               </video>
             </div>
             <div class="item item-table-tp">
               <video poster="" id="mergevideo2" autoplay controls muted loop playsinline width="100%">
-                <source src="./static/videos/mergevideo2.mp4"
+                <source src="./videos/mergevideo2.mp4"
                         type="video/mp4">
               </video>
             </div>
             <div class="item item-table-tp">
               <video poster="" id="mergevideo3" autoplay controls muted loop playsinline width="100%">
-                <source src="./static/videos/mergevideo3.mp4"
+                <source src="./videos/mergevideo3.mp4"
                         type="video/mp4">
               </video>
             </div>
             <div class="item item-table-tp">
               <video poster="" id="mergevideo4" autoplay controls muted loop playsinline width="100%">
-                <source src="./static/videos/mergevideo4.mp4"
+                <source src="./videos/mergevideo4.mp4"
                         type="video/mp4">
               </video>
             </div>
@@ -672,7 +672,7 @@
   <div class="container">
     <div class="content has-text-centered">
       <a class="icon-link"
-         href="./static/videos/nerfies_paper.pdf">
+         href="./videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
