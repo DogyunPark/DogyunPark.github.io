@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dogyunpark.github.io/CV/sitemap.xml
+Sitemap: https://dogyunpark.github.io/sitemap.xml
