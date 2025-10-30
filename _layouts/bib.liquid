@@ -202,6 +202,11 @@
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
+          {%- if entry.project %}
+            <a href="{{ entry.project }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener">
+              <i class="fas fa-external-link-alt"></i> Project
+            </a>
+          {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
             <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
