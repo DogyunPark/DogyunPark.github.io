@@ -60,3 +60,10 @@ body { font-family:'Charter', Georgia, 'Times New Roman', serif; font-weight:400
 
 /* About page only */
 body.page-about .container { max-width: 960px; }
+
+/* Size and spacing */
+.social .contact-icons a { margin-right: 8px; margin-bottom: 8px;}
+// .social .contact-icons i { font-size: 1.1rem; line-height: 1; }
+
+/* Center icons on the about page block */
+.social .contact-icons { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
