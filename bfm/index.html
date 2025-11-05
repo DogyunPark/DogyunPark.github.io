@@ -318,8 +318,8 @@
             features from the segment’s start feature $f_{t_{m-1}}$, scaled by a normalized offset $b_m(t)$. This design
             enables feature updates to be computed incrementally and efficiently, requiring $f_φ$ to run only once per
             segment. The FRN is trained via a feature regression loss to match the frozen alignment features.
-            Empirically, this residual approximation
-            <span class="hover-container"> retains over 98% of the semantic fidelity of
+            Empirically, this residual approximation retains over
+            <span class="hover-container">98% of the semantic fidelity of
                 BFM-S$_{\text{SF}}$ while cutting inference complexity by 41%
                 <img src="assets/figures/ablation.png" class="hover-image" style="width: 100%; height: auto;">
             </span>, offering a strong trade-off between quality and efficiency.
@@ -340,8 +340,8 @@
 
         <div>
             <figure style="text-align: center; flex: 0.79;">
-                <img src="assets/figures/main_table.png" style="max-width: 90%; height: auto;">
-                <p class="caption" style="width: 90%; text-align: left; margin-left: auto; margin-right: auto;">
+                <img src="assets/figures/main_table.png" style="max-width: 100%; height: auto;">
+                <p class="caption" style="width: 100%; text-align: left; margin-left: auto; margin-right: auto;">
                     <b>Table 1:</b> <b>System-level comparison on ImageNet 256$\times$256</b> class-conditioned
                     generation with
                     classifier-free guidance. FLOPs are averaged across the solver steps and number of samples.↓ and
