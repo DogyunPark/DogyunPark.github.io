@@ -5,8 +5,8 @@ permalink: /
 subtitle: |+
   M.S & Ph.D Integrated Student in MLV Lab, advised by <a href="https://scholar.google.com/citations?hl=en&user=LfBoJt8AAAAJ&view_op=list_works&sortby=pubdate">Prof. Hyunwoo J. Kim</a>.
   Department of Computer Science and Engineering at Korea University, Seoul, Republic of Korea.<br><br>
-  My research interests are <b><i>Generative AI in computer vision</i></b>, especially in making efficient and effective <b><i>diffusion models/rectified flows</i></b>.
-  My ultimate goal is to push the boundaries of generative AI to enable more creative, efficient, and controllable solutions for real-world applications, from <b><i>content creation</i></b> to <b><i>scientific simulations</i></b>.
+  My research interests are <b><i>Generative AI in computer vision</i></b>, especially in making efficient and effective <b><i>vision generative models</i></b>.
+  My goal is to push the boundaries of generative AI to enable more creative and efficient solutions for real-world applications, from <b><i>content creation</i></b> to <b><i>scientific simulations</i></b>.
 
 
 profile:
