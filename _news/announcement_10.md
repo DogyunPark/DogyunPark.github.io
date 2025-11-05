@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint [Sprint: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers](https://arxiv.org/abs/2510.21986) is now available on arXiv.
+We’re excited to announce that our new preprint [Sprint: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers](https://arxiv.org/abs/2510.21986) is now available on arXiv. Our proposed <b>SPRINT</b> 🚀 framework achieves up to 9.8× faster DiT training while maintaining high generation quality.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Blockwise Flow Matching](https://arxiv.org/pdf/2510.21167) is accepted at NeurIPS 2025!
+Our [Blockwise Flow Matching](https://arxiv.org/pdf/2510.21167) has been accepted to NeurIPS 2025! 🎉 <b>BFM</b> reduces the inference cost of standard DiTs by up to 4.9×, while maintaining comparable generation quality.

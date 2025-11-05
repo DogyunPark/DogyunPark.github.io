@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Starting Research Internship at Snap Inc., Creative Vision Team.
+Excited to share that I’ve started my Research Internship at 👻 <b>Snap Inc</b>., joining the Creative Vision Team!
+I’ll be working on efficiency of generative AI and video diffusion models.
