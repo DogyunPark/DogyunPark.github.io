@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-[Sprint: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers](https://arxiv.org/abs/2510.21986) is under review at ICLR 2026!
+New preprint [Sprint: Sparse-Dense Residual Fusion for Efficient Diffusion Transformers](https://arxiv.org/abs/2510.21986) is now available on arXiv.

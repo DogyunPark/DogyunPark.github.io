@@ -23,3 +23,40 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Charter */
+@font-face {
+  font-family: 'Charter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('{{ "/assets/fonts/fonts/Charter/charter_regular.woff2" | relative_url }}') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Charter';
+  font-style: italic;
+  font-weight: 400;
+  src: url('{{ "/assets/fonts/fonts/Charter/charter_italic.woff2" | relative_url }}') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Charter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('{{ "/assets/fonts/fonts/Charter/charter_bold.woff2" | relative_url }}') format('woff2');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Charter';
+  font-style: italic;
+  font-weight: 700;
+  src: url('{{ "/assets/fonts/fonts/Charter/charter_bold_italic.woff2" | relative_url }}') format('woff2');
+  font-display: swap;
+}
+
+/* Use it site-wide */
+body { font-family:'Charter', Georgia, 'Times New Roman', serif; font-weight:400; }
+  strong, b { font-weight:700; }
+
+/* About page only */
+body.page-about .container { max-width: 960px; }

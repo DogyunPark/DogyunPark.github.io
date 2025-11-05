@@ -1,15 +1,19 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: |+
   M.S & Ph.D Integrated Student in MLV Lab, advised by <a href="https://scholar.google.com/citations?hl=en&user=LfBoJt8AAAAJ&view_op=list_works&sortby=pubdate">Prof. Hyunwoo J. Kim</a>.<br><br>
-  Department of Computer Science and Engineering at Korea University, Seoul, Republic of Korea.
+  Department of Computer Science and Engineering at Korea University, Seoul, Republic of Korea.<br><br>
+
+
 
 profile:
   image: dogyun.png
   image_cicular: false # crops the image to make it circular
   address: false
+  align: right
+  width_percent: 100
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
