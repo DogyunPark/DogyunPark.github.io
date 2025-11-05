@@ -26,3 +26,6 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+# Required on Ruby >= 3.4 because 'observer' is no longer bundled with stdlib
+gem 'observer'
