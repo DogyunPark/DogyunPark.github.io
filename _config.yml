@@ -239,18 +239,29 @@ sass:
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
+# jekyll-minifier:
+#   exclude:
+#     [
+#       "robots.txt",
+#       "assets/js/search/*.js",
+#       "assets/libs/**/*",
+#       "**/*.scss",
+#       "**/*.js",
+#       "**/*.mjs",
+#     ]
+#   uglifier_args:
+#     harmony: true
 jekyll-minifier:
-  exclude:
-    [
-      "robots.txt",
-      "assets/js/search/*.js",
-      "assets/libs/**/*",
-      "**/*.scss",
-      "**/*.js",
-      "**/*.mjs",
-    ]
-  uglifier_args:
-    harmony: true
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
