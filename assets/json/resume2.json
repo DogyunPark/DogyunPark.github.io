@@ -1,6 +1,13 @@
 {
   "work": [
     {
+      "name": "Snap Inc., Creative Vision Team",
+      "position": "Research Intern",
+      "startDate": "2025-05",
+      "endDate": "Current",
+      "summary": "Conduct research on efficient generative models"
+    },
+    {
       "name": "Samsung Electronics, Foundry Division",
       "position": "Semiconductor Process Technology Engineer",
       "startDate": "2019-01",
@@ -48,7 +55,10 @@
   "Professional Services": [
     {
       "name": "Conference Reviewer",
-      "highlights": ["ICLR 2025", "NeurIPS 2024"]
+      "highlights": [
+        "ICLR 2025",
+        "NeurIPS 2024"
+      ]
     }
   ],
   "Teaching": [
