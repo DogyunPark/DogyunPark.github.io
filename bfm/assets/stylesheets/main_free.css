@@ -611,6 +611,9 @@ footer p {
 
 div.container.blog#first-content {
   padding-top: 2vh;
+  /* Match horizontal padding with .container.blog.main at base */
+  padding-left: 6vw;
+  padding-right: 6vw;
   background-color: #f6f6f6
 }
 
@@ -822,7 +825,10 @@ div.container.blog.gray-linear p.caption {
 
 @media screen and (min-width: 769px) {
   div.container.blog#first-content {
-    padding-top: 3vh
+    padding-top: 3vh;
+    /* Match .container.blog.main padding at this breakpoint */
+    padding-left: 15vw;
+    padding-right: 15vw
   }
 
   div.container.blog#first-content div.blog-title {
@@ -891,7 +897,10 @@ div.container.blog.gray-linear p.caption {
 
 @media screen and (min-width: 992px) {
   div.container.blog#first-content {
-    padding-top: 4vh
+    padding-top: 4vh;
+    /* Match .container.blog.main padding at this breakpoint */
+    padding-left: 20vw;
+    padding-right: 20vw
   }
 
   div.container.blog#first-content div.blog-title {
@@ -954,7 +963,10 @@ div.container.blog.gray-linear p.caption {
 
 @media screen and (min-width: 1200px) {
   div.container.blog#first-content {
-    padding-top: 6vh
+    padding-top: 6vh;
+    /* Match .container.blog.main padding at this breakpoint */
+    padding-left: 24vw;
+    padding-right: 24vw
   }
 
   div.container.blog#first-content div.blog-title {
@@ -1052,6 +1064,12 @@ div.container.blog.gray-linear p.caption {
     padding: 2vh 27vw
   }
 
+  /* Match .container.blog.main horizontal padding at this breakpoint */
+  div.container.blog#first-content {
+    padding-left: 27vw;
+    padding-right: 27vw
+  }
+
   div.container.blog.main.comment {
     padding-left: 27vw;
     padding-right: 0vw;
@@ -1108,6 +1126,12 @@ div.container.blog.gray-linear p.caption {
     padding: 2vh 30vw
   }
 
+  /* Match .container.blog.main horizontal padding at this breakpoint */
+  div.container.blog#first-content {
+    padding-left: 30vw;
+    padding-right: 30vw
+  }
+
   div.container.blog.main.comment {
     padding-left: 30vw;
     padding-right: 0vw;
@@ -1162,6 +1186,12 @@ div.container.blog.gray-linear p.caption {
 
   div.container.blog.main {
     padding: 2vh 32vw
+  }
+
+  /* Match .container.blog.main horizontal padding at this breakpoint */
+  div.container.blog#first-content {
+    padding-left: 32vw;
+    padding-right: 32vw
   }
 
   div.container.blog.main.comment {
